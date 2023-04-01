@@ -2,7 +2,7 @@ import React from "react";
 import { StyleSheet, Text, View, SafeAreaView, Image } from "react-native";
 import tw from "twrnc";
 
-const HomePage = () => {
+const HomeScreen = () => {
   return (
     <SafeAreaView style={tw`bg-white h-full`}>
       <View style={tw`p-5`}>
@@ -21,6 +21,6 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default HomeScreen;
 
 const styles = StyleSheet.create({});
